@@ -1,0 +1,27 @@
+{
+  "name": "mongocronbackup",
+  "version": "1.0.0",
+  "description": "Cron to backup mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrAbdelrahman10/mongocronbackup.git"
+  },
+  "keywords": [
+    "backup",
+    "mongodb"
+  ],
+  "author": "Abdelrahman Mohamed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrAbdelrahman10/mongocronbackup/issues"
+  },
+  "homepage": "https://github.com/MrAbdelrahman10/mongocronbackup#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "exec-sh": "^0.3.4"
+  }
+}
