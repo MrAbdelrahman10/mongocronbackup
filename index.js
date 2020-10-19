@@ -1,12 +1,12 @@
 require('dotenv').config();
 const execShPromise = require("exec-sh").promise;
 
-const date = new Date();
-const folder_name = `${date.getFullYear()}/${date.getMonth()}/${date.getDay()}/${date.getHours()}_${date.getMinutes()}_${date.getSeconds()}`;
-
 (async () => {
     let is_running = false;
     setInterval(async () => {
+
+        const date = new Date();
+        const folder_name = `${date.getFullYear()}/${date.getMonth()}/${date.getDay()}/${date.getHours()}_${date.getMinutes()}_${date.getSeconds()}`;
 
         if (is_running) {
             console.log('[task]', new Date(), 'another task is already running');
